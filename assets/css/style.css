@@ -49,9 +49,10 @@ article{
   font-size:20px;
   color:rgb(5, 136, 154);
   background-color: white;
-  margin:0px 10px 0px 10px;
+  margin:10px 10px 10px 10px;
   padding:5px 5px 5px 5px;
   width: 250px;
+  float:left;
 }
 
 .resize  {
@@ -77,8 +78,14 @@ article{
 }
 
 footer{
-  color:white;
+  color:rgb(211,1, 102);
   font-family:courier;
+  bottom:0px;
+  position:fixed;
+  border: 5px solid rgb(255, 187, 17);
+  width:90%;
+  background-color: white;
+  text-align:center;
 }
 .porfolio{
   background-color: white;
