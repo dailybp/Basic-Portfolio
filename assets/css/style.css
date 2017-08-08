@@ -1,0 +1,114 @@
+* {
+  border:1px dashed black;
+}
+
+header{
+  color:white;
+  width:55%;
+  height:50px;
+  font-family:courier;
+  background-color:rgb(5,136,154);
+  border-top-right-radius: 2em;
+  border-top-left-radius: 2em;
+  padding:10px 10px 10px 10px;
+  float:left;
+}
+
+nav{
+  display:in-line;
+  float:right;
+  background-color:rgb(5, 136, 154);
+}
+
+body{
+  background-image: url("/Users/brendandailey/class/Homework/Basic-Portfolio/assets/images/background.jpg");
+  background-repeat: repeat;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  float:right;
+}
+
+aside{
+  background-color: white;
+  float:right;
+  font-family:courier;
+  color:rgb(211,1,102);
+  text-decoration: underline;
+  text-align: center;
+  box-sizing: content-box;
+  width:300px;
+  height:170px;
+  margin:5px 5px 5 px 5px;
+}
+
+article{
+  font-family:courier;
+  font-size:20px;
+  color:rgb(5, 136, 154);
+  background-color: white;
+  margin:0px 10px 0px 10px;
+  padding:5px 5px 5px 5px;
+  width: 250px;
+}
+
+.resize  {
+  width:30px;
+  height:30px;
+  display:block;
+  padding:30px 30px 30px 30px;
+}
+
+.profilePic{
+  width:150px;
+  height:150px;
+  display:block;
+  border:10px solid rgb(255,187,17);
+  float:left;
+  position:relative;
+}
+
+.biography {
+  color:black;
+  font-family:comic sans ms;
+  font-size:16px;
+}
+
+footer{
+  color:white;
+  font-family:courier;
+}
+.porfolio{
+  background-color: white;
+}
+
+section{
+  background-color: white;
+}
+
+.rpg{
+  width:200px;
+  height:200px;
+}
+
+.hangman{
+  width:200px;
+  height:200px;
+}
+
+.trivia{
+  width:250px;
+  height:200px;
+}
+
+.widget{
+  width:200px;
+  height:200px;
+}
+
+.rps{
+  width:250px;
+  height:200px;
+}
