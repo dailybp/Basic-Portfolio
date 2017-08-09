@@ -1,6 +1,6 @@
-* {
+/* * {
   border:1px dashed black;
-}
+} */
 
 header{
   color:white;
@@ -38,10 +38,11 @@ aside{
   color:rgb(211,1,102);
   text-decoration: underline;
   text-align: center;
-  box-sizing: content-box;
-  width:300px;
-  height:170px;
-  margin:5px 5px 5 px 5px;
+  height:130px;
+  margin:5px 5px 5px 5px;
+  width:30%;
+  text-align: center;
+  border-radius: 1px;
 }
 
 article{
@@ -49,17 +50,19 @@ article{
   font-size:20px;
   color:rgb(5, 136, 154);
   background-color: white;
-  margin:10px 10px 10px 10px;
   padding:5px 5px 5px 5px;
-  width: 250px;
+  width: 60%;
   float:left;
+  border-bottom-right-radius: 2em;
+  border-bottom-left-radius: 2em;
 }
 
-.resize  {
+.links  {
   width:30px;
   height:30px;
   display:block;
-  padding:30px 30px 30px 30px;
+  margin:10px 10px 10px 10px;
+  text-align: center;
 }
 
 .profilePic{
@@ -83,7 +86,7 @@ footer{
   bottom:0px;
   position:fixed;
   border: 5px solid rgb(255, 187, 17);
-  width:90%;
+  width:97%;
   background-color: white;
   text-align:center;
 }
